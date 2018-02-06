@@ -1,0 +1,8 @@
+{
+    "server": true,
+    "datacenter": "dc1",
+    "data_dir": "`(mkdir data && cd data && pwd)`",
+    "bind_addr": "127.0.0.1",
+    "start_join": ["127.0.0.1"],
+    "log_level": "INFO"
+}
